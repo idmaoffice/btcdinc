@@ -1,0 +1,427 @@
+@media screen and (max-width: 1220px) {
+    nav li:not(:last-child) {
+        margin-right: 25px;
+    }
+    .info p {
+        font-size: 13px;
+    }
+    .header-info h2 {
+        font-size: 43px;
+    }
+    .header-info button {
+        margin-top: 30px;
+    }
+    .missi {
+        padding: 60px 0;
+        margin: 0;
+    }
+    .mission-info p, .about p {
+        font-size: 15px;
+    }
+    .serv {
+        padding-top: 60px;
+    }
+    .about h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        line-height: 1.2;
+    }
+    .contact input {
+        width: 190px;
+    }
+    .contact h2 {
+        font-size: 32px;
+    }
+    .guarantee {
+        padding-top: 60px;
+        margin-bottom: 60px;
+    }
+    .guarantee .container p, .guarantee .container ul li {
+        font-size: 13px;
+    }
+    .founder img {
+        width: 100%;
+    }
+    .founder {
+        margin-bottom: 60px;
+    }
+    .founders {
+        padding-bottom: 0;
+    }
+    .partners {
+        padding: 60px 0;
+        img {
+            width: 100%;
+        }
+    }
+    .footer {
+        h2 {
+            font-size: 58px;
+
+        }
+        p, a {
+            font-size: 16px;
+        }
+    }
+    .abou {
+        img {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 1130px) {
+
+}
+@media screen and (max-width: 991px) {
+    .header-info .img-fluid img {
+        margin: auto;
+        display: block;
+        width: 60%;
+    }
+    .header-info {
+        text-align: center;
+        margin-top: 70px;
+        
+    }
+    .info p {
+        margin-bottom: 15px;
+    }
+    .info {
+        margin-bottom: 40px;
+    }
+    .missi {
+        padding: 30px 0;
+        img {
+            width: 50%;
+            display: block;
+            margin: 0 auto 20px ;
+        }
+    }
+    .numb {
+        margin-bottom: 60px;
+    }
+    .serv {
+        padding-top: 30px;
+        .row {
+            justify-content: space-around;
+        }
+    }
+    .services {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &-item {
+            img {
+                width: 35%;
+            }
+        }
+    }
+    .serv-item p {
+        margin: 20px 0 25px;
+        font-size: 19px;
+    }
+    .abou {
+        padding-top: 60px;
+        .img-fluid {
+            order: -1;
+            margin-bottom: 40px;
+            img {
+                width: 50%;
+                margin: auto;
+                display: block;
+            }
+        }
+    }
+    .about h3 {
+        font-size: 32px;
+    }
+    .abou .row {
+        margin-bottom: 60px;
+    }
+    .guarantee .container {
+        padding-top: 30px;
+        .col-12 {
+            &:nth-child(2) {
+                order: 1;
+            }
+            &:nth-child(3) {
+                order: 1;
+            }
+        }
+    }
+    .guarantee {
+        margin: 30px 0;
+    }
+    .founders {
+        padding: 30px 0 0;
+    }
+    .founder {
+        margin-bottom: 30px;
+    }
+    .partners .mission {
+        margin-bottom: 30px;
+    }
+    .partners {
+        .col-lg-2 {
+            margin-bottom: 30px;
+        }
+    }
+    .footer {
+        text-align: center;
+        padding: 30px 0;
+        .telegram-in {
+            justify-content: center;
+            &.mt-5 {
+                margin-top: 20px !important;
+            }
+        }
+        &-form {
+
+            margin: 40px auto 0;
+        }
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        width: 320px;
+        padding: 40px;
+        position: fixed;
+        background: #fff;
+        z-index: 999;
+        transition: 0.6s all;
+        &.active {
+            right: 0;
+        }
+        .exit {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            width: 35px;
+            height: 35px;
+        }
+        ul {
+            padding-top: 40px;
+            flex-direction: column;
+            text-align: left;
+            align-items: flex-start;
+            li {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+        a {
+            color: #000;
+            font-size: 20px;
+        }
+    }
+    .mission-info {
+        margin: 20px 0;
+    }
+    .missi {
+        padding: 30px 0 0;
+    }
+    .mission h2 {
+        font-size: 36px;
+    }
+    .mission p {
+        font-size: 15px;
+    }
+    .numbers-item h3 {
+        line-height: 1;
+    }
+    .numbers-item {
+        margin-bottom: 20px;
+    }
+    .numb {
+        margin-bottom: 30px;
+    }
+    .services-item img {
+        width: 25%;
+    }
+    .about h3 {
+        font-size: 28px;
+    }
+    .mission-info p, .about p {
+        font-size: 14px;
+    }
+    .contact .form {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        button {
+            margin-top: 45px;
+        }
+    }
+    .contact {
+        .col-12 {
+            text-align: center;
+            margin-bottom: 30px;
+            br {
+                display: none;
+            }
+        }
+    }
+    .guarantee {
+        padding-top: 0;
+    }
+    .guarantee .container .d-block {
+        width: 20%;
+    }
+    .partners img {
+        width: 60%;
+    }
+    .footer h2 {
+        font-size: 36px;
+    }
+    .footer p, .footer a {
+        font-size: 14px;
+    }
+    .guarantee {
+        .col-12 {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            img {
+                max-width: 90px;
+                display: flex !important;
+                margin-right: 20px !important;
+                margin-bottom: 0 !important;
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .services-item img, .guarantee .container .d-block {
+        min-width: 42px;
+    }
+    .numbers-item h3 {
+        font-size: 50px;
+    }
+    .header-img {
+        img {
+            width: 170px;
+        }
+    }
+    .header-info h2 {
+        font-size: 28px;
+    }
+    .header-info button {
+        width: 240px;
+        font-size: 14px;
+    }
+    .header-info .img-fluid img {
+        width: 70%;
+    }
+    .mission h2, .contact h2 {
+        font-size: 26px;
+    }
+    .mission p {
+        font-size: 14px;
+    }
+    .numbers-item h3 {
+        font-size: 70px;
+    }
+    .serv-item p {
+        font-size: 16px;
+    }
+    .abou .img-fluid img {
+        width: 60%;
+    }
+    .founder h3 {
+        font-size: 22px;
+    }
+    .founder p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 470px) {
+    .contact .form {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        input {
+            margin-bottom: 35px;
+            width: 80%;
+        }
+        button {
+            margin-top: 20px;
+        }
+    }
+    .services-item img, .guarantee .container .d-block {
+
+        width: 30%;
+    }
+    .footer-form {
+        width: 100%;
+    }
+    .footer-form button {
+        width: 100%;
+    }
+    .footer-form-title {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .partners img {
+        width: 75%;
+    }
+
+}
+//@media screen and (max-width: 1020px) {
+//
+//    .mission-info p {
+//        width: 100%;
+//        padding-top: 40px;
+//        text-align: center;
+//    }
+//
+//}
+
+//@media screen and (max-width: 992px) {
+//
+//    .header-info h2, .mission h2 {
+//        text-align: center;
+//    }
+//    .nav {
+//        display: none;
+//    }
+//    .contact h2 {
+//        text-align: center;
+//        margin: auto;
+//    }
+//    .serv-item {
+//        margin: 20px auto;
+//    }
+//
+//}
+
+//@media screen and (max-width: 800px) {
+//
+//
+//}
+//
+//@media screen and (max-width: 480px) {
+//    .header-info h2, .mission h2 {
+//        width: 100%;
+//        font-size: 40px;
+//    }
+//    .header-info button {
+//        width: 80%;
+//        height: auto;
+//        margin: 50px auto;
+//    }
+//    .guarantee {
+//        text-align: center;
+//    }
+//    .guarantee ul {
+//        text-align: left;
+//    }
+//}
